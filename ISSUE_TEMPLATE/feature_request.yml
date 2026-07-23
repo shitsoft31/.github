@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest a new feature or improvement.
+title: "[Feature]: "
+labels:
+
+* enhancement
+  body:
+
+* type: markdown
+  attributes:
+  value: |
+  Thanks for your suggestion!
+
+* type: input
+  id: project
+  attributes:
+  label: Project
+  placeholder: Example: awesome-api
+  validations:
+  required: true
+
+* type: textarea
+  id: problem
+  attributes:
+  label: Problem
+  description: What problem does this feature solve?
+  validations:
+  required: true
+
+* type: textarea
+  id: solution
+  attributes:
+  label: Proposed Solution
+  description: Describe your idea.
+  validations:
+  required: true
+
+* type: textarea
+  id: alternatives
+  attributes:
+  label: Alternatives
+  description: Have you considered any alternatives?
+
+* type: textarea
+  id: additional
+  attributes:
+  label: Additional Context
+  description: Mockups, links, examples, screenshots, etc.
