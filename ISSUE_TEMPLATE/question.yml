@@ -1,0 +1,29 @@
+name: Question
+description: Ask a question about a project.
+title: "[Question]: "
+labels:
+
+* question
+  body:
+
+* type: input
+  id: project
+  attributes:
+  label: Project
+  placeholder: Example: awesome-api
+  validations:
+  required: true
+
+* type: textarea
+  id: question
+  attributes:
+  label: Your Question
+  description: Ask your question as clearly as possible.
+  validations:
+  required: true
+
+* type: textarea
+  id: additional
+  attributes:
+  label: Additional Context
+  description: Anything else that may help us answer your question.
